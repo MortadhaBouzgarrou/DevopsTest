@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ProductServiceImplTest {
     @Autowired
-    IProductService iProductService;
+    ProductServiceImpl iProductService;
     @Test
     void retreiveAllProduct() {
         List<Product> products= iProductService.retreiveAllProduct();
