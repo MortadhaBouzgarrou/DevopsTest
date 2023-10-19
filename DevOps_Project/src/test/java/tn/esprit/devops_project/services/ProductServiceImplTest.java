@@ -18,8 +18,8 @@ class ProductServiceImplTest<x> {
     @Test
     void testRetrieveProduct() {
         Product product = productService.retrieveProduct(Long.valueOf(1));
-      //  Assertions.assertEquals(product.getTitle(),"produit1");
-        Assertions.assertEquals(product.getTitle(),"prodddduit");
+       Assertions.assertEquals(product.getTitle(),"produit1");
+        // Assertions.assertEquals(product.getTitle(),"prodddduit");
         Assertions.assertNotNull(product);
     }
     @Test
