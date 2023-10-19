@@ -12,7 +12,6 @@ import tn.esprit.devops_project.entities.ProductCategory;
 import java.util.List;
 
 @SpringBootTest
-@ExtendWith(MockitoExtension.class)
 class ProductServiceImplTest {
     ProductCategory category;
 
