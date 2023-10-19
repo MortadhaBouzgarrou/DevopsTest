@@ -2,6 +2,8 @@ package tn.esprit.devops_project.services;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import tn.esprit.devops_project.entities.Product;
@@ -10,7 +12,8 @@ import tn.esprit.devops_project.entities.ProductCategory;
 import java.util.List;
 
 @SpringBootTest
-class ProductServiceImplTest<x> {
+@ExtendWith(MockitoExtension.class)
+class ProductServiceImplTest {
     ProductCategory category;
 
     @Autowired
