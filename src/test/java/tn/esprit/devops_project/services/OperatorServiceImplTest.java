@@ -23,6 +23,18 @@ public class OperatorServiceImplTest {
     @InjectMocks
     private OperatorServiceImpl operatorService;
 
+
+
+
+
+
+
+
+
+
+
+
+
     @Mock
     private OperatorRepository operatorRepository;
 
